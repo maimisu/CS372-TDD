@@ -5,7 +5,7 @@ I chose to do the string calculator exercise.
 
 1. An empty string returns zero- DONE!
 2. A single number returns the value- DONE!
-3. Two numbers, comma delimited, returns the sum
+3. Two numbers, comma delimited, returns the sum- DONE!
 4. Two numbers, newline delimited, returns the sum
 5. Three numbers, delimited either way, returns the sum
 6. Negative numbers throw an exception
