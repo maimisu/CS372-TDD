@@ -16,3 +16,8 @@ TEST_CASE("A single number returns the value")
 	REQUIRE(2 == calculate(2));
 }
 
+TEST_CASE("Two numbers, comma delimited, returns the sum")
+{
+	INFO("Two numbers, comma delimited, did not return the sum");
+	REQUIRE(5 == calculate("2, 3"));
+}
