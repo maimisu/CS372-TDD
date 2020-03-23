@@ -13,3 +13,10 @@ int calculate(std::string str) {
 			sum += a;
 		}
 	}
+	while (std::getline(ssr, str, ',')) {
+		if (ssr(str) >> a) {
+			sum += a;
+		}
+	}
+	return sum;
+	
