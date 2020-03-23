@@ -10,3 +10,9 @@ TEST_CASE("empty string returns 0")
 	REQUIRE(0 == calculate(""));
 }
 
+TEST_CASE("A single number returns the value")
+{
+	INFO("Single number did not return the value");
+	REQUIRE(2 == calculate(2));
+}
+
