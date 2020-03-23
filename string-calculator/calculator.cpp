@@ -1,3 +1,8 @@
+// test.cpp
+// Malvika Shriwas
+// CS372 string calc TDD
+// Time allotted: 45 minutes
+
 #include <string>
 #include <sstream>
 
