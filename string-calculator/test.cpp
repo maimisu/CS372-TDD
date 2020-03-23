@@ -1,3 +1,8 @@
+// test.cpp
+// Malvika Shriwas
+// CS372 string calc TDD
+// Time allotted: 45 minutes
+
 #define CATCH_CONFIG_FAST_COMPILE
 #define CATCH_CONFIG_MAIN
 
@@ -21,3 +26,11 @@ TEST_CASE("Two numbers, comma delimited, returns the sum")
 	INFO("Two numbers, comma delimited, did not return the sum");
 	REQUIRE(5 == calculate("2, 3"));
 }
+
+/*  NOT FINISHED
+TEST_CASE("Two numbers, newline delimited, returns the sum")
+{
+	INFO("Two numbers, newline delimited, did not return the sum");
+	REQUIRE();
+}
+*/
